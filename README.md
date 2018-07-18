@@ -3,11 +3,13 @@
 ## Building on the host
 `chmod +x gradlew && ./gradlew shadowJar` -> `build/libs`
 
-## Building via Docker
+~~## Building via Docker
 `docker build -t kawaiibot .`
 
-## Deployment via Docker Compose
+~~## Deployment via Docker Compose
 `docker-compose up -d --build`
+
+no one uses docker
 
 ## Development setup
 `chmod +x gradlew && ./gradlew cleanIdea idea`
